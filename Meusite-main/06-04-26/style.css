@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.grupo{
+
+.grupo {
     display: flex;
     flex-direction: column;
 }
+
 .cabecario {
     background-color: #afa554;
     color: #3e475a;
@@ -15,14 +17,17 @@
     align-items: center;
     width: 30%;
 }
+
 .menu a {
     color: aliceblue;
     text-decoration: none;
     margin-left: 15px;
 }
+
 .menu a:hover {
     color: brown;
 }
+
 .secao {
     background-color: #c2aa9b;
     display: inline-block;
@@ -32,16 +37,40 @@
 .rodape {
     background-color: #517980;
 }
+
 .navegacao {
     background-color: #3e475a;
     display: inline-block;
     width: 30%;
     padding: 10px
 }
+
 .navegacao ul {
-        list-style: nome;
-        padding: 0;
+    list-style: nome;
+    padding: 0;
 }
-.navegacao li{
+
+.navegacao li {
     margin-bottom: 10px;
+}
+
+.conteudo {
+    display: flex;
+    height: 200px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+}
+.redes img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.redes a{
+    margin-left: 10px;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
 }
